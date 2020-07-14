@@ -27,7 +27,6 @@ static u8 sLilycoveSSTidalSelections[SSTIDAL_SELECTION_COUNT];
 static void Task_HandleMultichoiceInput(u8 taskId);
 static void Task_HandleYesNoInput(u8 taskId);
 static void Task_HandleMultichoiceGridInput(u8 taskId);
-static void DrawMultichoiceMenu(u8 left, u8 top, u8 multichoiceId, bool8 ignoreBPress, u8 cursorPos);
 static void InitMultichoiceCheckWrap(bool8 ignoreBPress, u8 count, u8 windowId, u8 multichoiceId);
 static void DrawLinkServicesMultichoiceMenu(u8 multichoiceId);
 static void CreatePCMultichoice(void);
@@ -145,30 +144,6 @@ static u16 GetLengthWithExpandedPlayerName(const u8 *str)
     }
 
     return length;
-}
-
-static void DrawMultichoiceMenu(u8 left, u8 top, u8 multichoiceId, bool8 ignoreBPress, u8 cursorPos)
-{
-    int i;
-    u8 windowId;
-    u8 count = sMultichoiceLists[multichoiceId].count;
-    const struct MenuAction *actions = sMultichoiceLists[multichoiceId].list;
-    int width = 0;
-    u8 newWidth;
-
-    for (i = 0; i < count; i++)
-    {
-        width = DisplayTextAndGetWidth(actions[i].text, width);
-    }
-
-    newWidth = ConvertPixelWidthToTileWidth(width);
-    left = ScriptMenu_AdjustLeftCoordFromWidth(left, newWidth);
-    windowId = CreateWindowFromRect(left, top, newWidth, count * 2);
-    SetStandardWindowBorderStyle(windowId, 0);
-    PrintMenuTable(windowId, count, actions);
-    InitMenuInUpperLeftCornerPlaySoundWhenAPressed(windowId, count, cursorPos);
-    schedule_bg_copy_tilemap_to_vram(0);
-    InitMultichoiceCheckWrap(ignoreBPress, count, windowId, multichoiceId);
 }
 
 #define tLeft           data[0]
