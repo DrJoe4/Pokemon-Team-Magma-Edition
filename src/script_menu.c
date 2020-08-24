@@ -55,7 +55,8 @@ static void DrawMultichoiceMenuCustom(u8 left, u8 top, u8 multichoiceId, u8 igno
     SetStandardWindowBorderStyle(windowId, 0);
     PrintMenuTable(windowId, count, actions);
     InitMenuInUpperLeftCornerPlaySoundWhenAPressed(windowId, count, cursorPos);
-    schedule_bg_copy_tilemap_to_vram(0);
+    //schedule_bg_copy_tilemap_to_vram(0);
+	ScheduleBgCopyTilemapToVram(0);
     InitMultichoiceCheckWrap(ignoreBPress, count, windowId, multichoiceId);
 }
 
@@ -147,7 +148,7 @@ static u16 GetLengthWithExpandedPlayerName(const u8 *str)
 }
 
 
-static void DrawMultichoiceMenu(u8 left, u8 top, u8 multichoiceId, bool8 ignoreBPress, u8 cursorPos)
+/*static void DrawMultichoiceMenu(u8 left, u8 top, u8 multichoiceId, bool8 ignoreBPress, u8 cursorPos)
 {
     int i;
     u8 windowId;
@@ -169,7 +170,7 @@ static void DrawMultichoiceMenu(u8 left, u8 top, u8 multichoiceId, bool8 ignoreB
     InitMenuInUpperLeftCornerPlaySoundWhenAPressed(windowId, count, cursorPos);
     ScheduleBgCopyTilemapToVram(0);
     InitMultichoiceCheckWrap(ignoreBPress, count, windowId, multichoiceId);
-}
+}*/
 
 #define tLeft           data[0]
 #define tTop            data[1]
