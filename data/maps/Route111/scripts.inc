@@ -412,14 +412,19 @@ Route111_EventScript_Man2:: @ 81F1192
 Route111_EventScript_Hiker:: @ 81F119B
 	lock
 	faceplayer
-	compare VAR_MIRAGE_TOWER_STATE, 3
-	goto_if_eq Route111_EventScript_HikerMirageTowerGone
-	compare VAR_MIRAGE_TOWER_STATE, 2
-	goto_if_eq Route111_EventScript_HikerMirageTowerDisintegrated
-	goto_if_set FLAG_MIRAGE_TOWER_VISIBLE, Route111_EventScript_HikerMirageTowerVisible
-	msgbox Route111_Text_ShouldBeMirageTowerAroundHere, MSGBOX_DEFAULT
+	msgbox Text_Test, MSGBOX_DEFAULT
+	givemon SPECIES_CHARIZARD, 100, ITEM_NONE
+	giveitem ITEM_HEIST_BALL, 5 
+	giveitem ITEM_POKE_BALL, 5
+	giveitem ITEM_HM02, 1
+	setflag FLAG_BADGE06_GET
+	setflag FLAG_SYS_POKEMON_GET
+	setflag FLAG_VISITED_DEWFORD_TOWN
 	release
 	end
+
+Text_Test:
+	.string "Test$" 
 
 Route111_EventScript_HikerMirageTowerGone:: @ 81F11C6
 	msgbox Route111_Text_MirageTowerHasntBeenSeenSince, MSGBOX_DEFAULT

@@ -21,6 +21,7 @@
 #include "constants/trainers.h"
 #include "constants/battle_anim.h"
 #include "constants/map_types.h"
+#include "constants/maps.h"
 #include "text.h"
 #include "sound.h"
 #include "pokedex.h"
@@ -57,6 +58,8 @@
 extern struct MusicPlayerInfo gMPlayInfo_BGM;
 
 extern const u8* const gBattleScriptsForMoveEffects[];
+
+
 
 #define DEFENDER_IS_PROTECTED ((gProtectStructs[gBattlerTarget].protected) && (gBattleMoves[gCurrentMove].flags & FLAG_PROTECT_AFFECTED))
 
@@ -316,6 +319,7 @@ static void Cmd_settypetoterrain(void);
 static void Cmd_pursuitrelated(void);
 static void Cmd_snatchsetbattlers(void);
 static void Cmd_removelightscreenreflect(void);
+static int IsPlayerInFriendlyTerritory(void);
 static void Cmd_handleballthrow(void);
 static void Cmd_givecaughtmon(void);
 static void Cmd_trysetcaughtmondexflags(void);
@@ -10055,10 +10059,92 @@ static void Cmd_removelightscreenreflect(void) // brick break
     gBattlescriptCurrInstr++;
 }
 
+static int IsPlayerInFriendlyTerritory(void)
+{
+    if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(ROUTE110)
+     && gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(ROUTE110))
+     {
+        return 1;
+     }
+     else if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(ROUTE111)
+     && gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(ROUTE111))
+     {
+        return 1;
+     }
+     else if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(ROUTE112)
+     && gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(ROUTE112))
+     {
+        return 1;
+     }
+     else if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(ROUTE113)
+     && gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(ROUTE113))
+     {
+        return 1;
+     }
+     else if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(ROUTE114)
+     && gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(ROUTE114))
+     {
+        return 1;
+     }
+     else if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(ROUTE117)
+     && gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(ROUTE117))
+     {
+        return 1;
+     }
+     else if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(FALLARBOR_TOWN)
+     && gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(FALLARBOR_TOWN))
+     {
+        return 1;
+     }
+     else if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(JAGGED_PASS)
+     && gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(JAGGED_PASS))
+     {
+        return 1;
+     }
+     else if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(METEOR_FALLS_1F_1R)
+     && gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(METEOR_FALLS_1F_1R))
+     {
+        return 1;
+     }
+     else if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(METEOR_FALLS_1F_2R)
+     && gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(METEOR_FALLS_1F_2R))
+     {
+        return 1;
+     }
+     else if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(METEOR_FALLS_B1F_1R)
+     && gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(METEOR_FALLS_B1F_1R))
+     {
+        return 1;
+     }
+     else if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(METEOR_FALLS_B1F_2R)
+     && gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(METEOR_FALLS_B1F_2R))
+     {
+        return 1;
+     }
+     else if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(LAVARIDGE_TOWN)
+     && gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(LAVARIDGE_TOWN))
+     {
+        return 1;
+     }
+     else if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAUVILLE_CITY)
+     && gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAUVILLE_CITY))
+     {
+        return 1;
+     }
+     else if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(VERDANTURF_TOWN)
+     && gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(VERDANTURF_TOWN))
+     {
+        return 1;
+     }
+     else
+     {
+         return 0;
+     }
+}
+
 static void Cmd_handleballthrow(void)
 {
-    u8 ballMultiplier = 0;
-
+     
     if (gBattleControllerExecFlags)
         return;
 
@@ -10067,9 +10153,30 @@ static void Cmd_handleballthrow(void)
 
     if (gBattleTypeFlags & BATTLE_TYPE_TRAINER)
     {
-        BtlController_EmitBallThrowAnim(0, BALL_TRAINER_BLOCK);
-        MarkBattlerForControllerExec(gActiveBattler);
-        gBattlescriptCurrInstr = BattleScript_TrainerBallBlock;
+        if(IsPlayerInFriendlyTerritory())
+        {
+            BtlController_EmitBallThrowAnim(0, BALL_TRAINER_BLOCK);
+            MarkBattlerForControllerExec(gActiveBattler);
+            gBattlescriptCurrInstr = BattleScript_TrainerBallBlock;
+        }
+        else if (gLastUsedItem == ITEM_HEIST_BALL)
+        {
+            BtlController_EmitBallThrowAnim(0, BALL_3_SHAKES_SUCCESS);
+            MarkBattlerForControllerExec(gActiveBattler);
+            gBattlescriptCurrInstr = BattleScript_SuccessBallThrow;
+            SetMonData(&gEnemyParty[gBattlerPartyIndexes[gBattlerTarget]], MON_DATA_POKEBALL, &gLastUsedItem);
+
+            if (CalculatePlayerPartyCount() == PARTY_SIZE)
+                gBattleCommunication[MULTISTRING_CHOOSER] = 0;
+            else
+                gBattleCommunication[MULTISTRING_CHOOSER] = 1;
+        }
+        else
+        {
+            BtlController_EmitBallThrowAnim(0, BALL_TRAINER_BLOCK);
+            MarkBattlerForControllerExec(gActiveBattler);
+            gBattlescriptCurrInstr = BattleScript_TrainerBallBlock;
+        }
     }
     else if (gBattleTypeFlags & BATTLE_TYPE_WALLY_TUTORIAL)
     {
@@ -10081,6 +10188,7 @@ static void Cmd_handleballthrow(void)
     {
         u32 odds;
         u8 catchRate;
+        u8 ballMultiplier;
 
         if (gLastUsedItem == ITEM_SAFARI_BALL)
             catchRate = gBattleStruct->safariCatchFactor * 1275 / 100;
@@ -10128,6 +10236,7 @@ static void Cmd_handleballthrow(void)
                 break;
             case ITEM_LUXURY_BALL:
             case ITEM_PREMIER_BALL:
+            case ITEM_HEIST_BALL: 
                 ballMultiplier = 10;
                 break;
             }
@@ -10186,7 +10295,7 @@ static void Cmd_handleballthrow(void)
 
             if (shakes == BALL_3_SHAKES_SUCCESS) // mon caught, copy of the code above
             {
-                gBattlescriptCurrInstr = BattleScript_SuccessBallThrow;
+                gBattlescriptCurrInstr = BattleScript_SuccessBallThrow; 
                 SetMonData(&gEnemyParty[gBattlerPartyIndexes[gBattlerTarget]], MON_DATA_POKEBALL, &gLastUsedItem);
 
                 if (CalculatePlayerPartyCount() == PARTY_SIZE)

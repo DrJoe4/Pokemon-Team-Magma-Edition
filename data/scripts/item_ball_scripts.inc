@@ -63,7 +63,7 @@ Route111_EventScript_ItemTM37:: @ 8290D9B
 	end
 
 Route111_EventScript_ItemStardust:: @ 8290DA8
-	finditem ITEM_STARDUST
+	finditem ITEM_STAR_PIECE
 	end
 
 Route111_EventScript_ItemHPUp:: @ 8290DB5
