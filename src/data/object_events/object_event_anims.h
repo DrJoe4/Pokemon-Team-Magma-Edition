@@ -264,9 +264,9 @@ const union AnimCmd gObjectEventImageAnim_GoFastWest[] =
 
 const union AnimCmd gObjectEventImageAnim_GoFastEast[] =
 {
-    ANIMCMD_FRAME(7, 4),
+    ANIMCMD_FRAME(10, 4),
     ANIMCMD_FRAME(9, 4),
-    ANIMCMD_FRAME(8, 4),
+    ANIMCMD_FRAME(11, 4),
     ANIMCMD_FRAME(9, 4),
     ANIMCMD_JUMP(0),
 };
@@ -300,9 +300,9 @@ const union AnimCmd gObjectEventImageAnim_GoFasterWest[] =
 
 const union AnimCmd gObjectEventImageAnim_GoFasterEast[] =
 {
-    ANIMCMD_FRAME(7, 2),
+    ANIMCMD_FRAME(10, 2),
     ANIMCMD_FRAME(9, 2),
-    ANIMCMD_FRAME(8, 2),
+    ANIMCMD_FRAME(11, 2),
     ANIMCMD_FRAME(9, 2),
     ANIMCMD_JUMP(0),
 };
@@ -336,9 +336,9 @@ const union AnimCmd gObjectEventImageAnim_GoFastestWest[] =
 
 const union AnimCmd gObjectEventImageAnim_GoFastestEast[] =
 {
-    ANIMCMD_FRAME(7, 1),
+    ANIMCMD_FRAME(10, 1),
     ANIMCMD_FRAME(9, 1),
-    ANIMCMD_FRAME(8, 1),
+    ANIMCMD_FRAME(11, 1),
     ANIMCMD_FRAME(9, 1),
     ANIMCMD_JUMP(0),
 };
