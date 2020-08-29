@@ -110,12 +110,6 @@ BattleScript_TrainerBallBlock::
 	waitmessage 0x40
 	finishaction
 
-BattleScript_NoHeistBall::
-	waitmessage 0x40
-	printstring STRINGID_NOHEIST
-	waitmessage 0x40
-	finishaction
-
 BattleScript_PlayerUsesItem::
 	setbyte sMOVEEND_STATE, 0xF
 	moveend 0x1, 0x0

@@ -414,7 +414,6 @@ Route111_EventScript_Hiker:: @ 81F119B
 	faceplayer
 	msgbox Text_Test, MSGBOX_DEFAULT
 	givemon SPECIES_CHARIZARD, 100, ITEM_NONE
-	giveitem ITEM_HEIST_BALL, 5 
 	giveitem ITEM_POKE_BALL, 5
 	giveitem ITEM_HM02, 1
 	setflag FLAG_BADGE06_GET

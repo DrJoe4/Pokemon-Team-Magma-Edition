@@ -116,7 +116,6 @@ static const struct BallCaptureSuccessStarData sBallCaptureSuccessStarData[] =
 #define TAG_PARTICLES_TIMERBALL   55029
 #define TAG_PARTICLES_LUXURYBALL  55030
 #define TAG_PARTICLES_PREMIERBALL 55031
-#define TAG_PARTICLES_HEISTBALL   55032
 
 const struct CompressedSpriteSheet gBallParticleSpritesheets[] =
 {
@@ -132,7 +131,6 @@ const struct CompressedSpriteSheet gBallParticleSpritesheets[] =
     {gBattleAnimSpriteGfx_Particles, 0x100, TAG_PARTICLES_TIMERBALL},
     {gBattleAnimSpriteGfx_Particles, 0x100, TAG_PARTICLES_LUXURYBALL},
     {gBattleAnimSpriteGfx_Particles, 0x100, TAG_PARTICLES_PREMIERBALL},
-    {gBattleAnimSpriteGfx_Particles, 0x100, TAG_PARTICLES_HEISTBALL},
 };
 
 const struct CompressedSpritePalette gBallParticlePalettes[] =
@@ -149,7 +147,6 @@ const struct CompressedSpritePalette gBallParticlePalettes[] =
     {gBattleAnimSpritePal_CircleImpact, TAG_PARTICLES_TIMERBALL},
     {gBattleAnimSpritePal_CircleImpact, TAG_PARTICLES_LUXURYBALL},
     {gBattleAnimSpritePal_CircleImpact, TAG_PARTICLES_PREMIERBALL},
-    {gBattleAnimSpritePal_CircleImpact, TAG_PARTICLES_HEISTBALL},
 };
 
 const union AnimCmd gAnim_RegularBall[] =
@@ -218,7 +215,6 @@ const u8 gBallParticleAnimNums[] =
     [BALL_TIMER] = 5,
     [BALL_LUXURY] = 4,
     [BALL_PREMIER] = 4,
-    [BALL_HEIST] = 4,
 };
 
 const TaskFunc gBallParticleAnimationFuncs[] =
@@ -347,15 +343,7 @@ const struct SpriteTemplate gBallParticlesSpriteTemplates[] =
         .affineAnims = gDummySpriteAffineAnimTable,
         .callback = SpriteCallbackDummy,
     },
-    {
-        .tileTag = TAG_PARTICLES_HEISTBALL,
-        .paletteTag = TAG_PARTICLES_HEISTBALL,
-        .oam = &gOamData_AffineOff_ObjNormal_8x8,
-        .anims = gAnims_BallParticles,
-        .images = NULL,
-        .affineAnims = gDummySpriteAffineAnimTable,
-        .callback = SpriteCallbackDummy,
-    },
+    
 };
 
 const u16 gBallOpenFadeColors[] =
@@ -372,7 +360,6 @@ const u16 gBallOpenFadeColors[] =
     [BALL_TIMER] = RGB(29, 30, 30),
     [BALL_LUXURY] = RGB(31, 17, 10),
     [BALL_PREMIER] = RGB(31, 9, 10),
-    [BALL_HEIST] = RGB(31, 9, 10),
 
     // Garbage data
     RGB(0, 0, 0),
@@ -738,8 +725,6 @@ u8 ItemIdToBallId(u16 ballItem)
         return BALL_LUXURY;
     case ITEM_PREMIER_BALL:
         return BALL_PREMIER;
-    case ITEM_HEIST_BALL:
-        return BALL_HEIST;
     case ITEM_POKE_BALL:
     default:
         return BALL_POKE;

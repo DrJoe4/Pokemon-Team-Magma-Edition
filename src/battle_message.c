@@ -453,12 +453,11 @@ const u8 * const gPokeblockWasTooXStringTable[] =
     sText_PokeblockWasTooSour
 };
 
-static const u8 sText_NoHeist[] = _("You need to use a\nHeist Ball to\nsteal Pokemon");
 static const u8 sText_PlayerUsedItem[] = _("{B_PLAYER_NAME} used\n{B_LAST_ITEM}!");
 static const u8 sText_WallyUsedItem[] = _("WALLY used\n{B_LAST_ITEM}!");
 static const u8 sText_Trainer1UsedItem[] = _("{B_TRAINER1_CLASS} {B_TRAINER1_NAME}\nused {B_LAST_ITEM}!");
 static const u8 sText_TrainerBlockedBall[] = _("The TRAINER blocked the BALL!");
-static const u8 sText_DontBeAThief[] = _("Don't steal from your\nsupporters!");
+static const u8 sText_DontBeAThief[] = _("Don't be a theif!");
 static const u8 sText_ItDodgedBall[] = _("It dodged the thrown BALL!\nThis POKéMON can't be caught!");
 static const u8 sText_YouMissedPkmn[] = _("You missed the POKéMON!");
 static const u8 sText_PkmnBrokeFree[] = _("Oh, no!\nThe POKéMON broke free!");
@@ -512,7 +511,6 @@ static const u8 sText_Trainer2LoseText[];
 
 const u8 * const gBattleStringsTable[BATTLESTRINGS_COUNT] =
 {
-    [STRINGID_NOHEIST - 12] = sText_NoHeist,
     [STRINGID_TRAINER1LOSETEXT - 12] = sText_Trainer1LoseText,
     [STRINGID_PKMNGAINEDEXP - 12] = sText_PkmnGainedEXP,
     [STRINGID_PKMNGREWTOLV - 12] = sText_PkmnGrewToLv,

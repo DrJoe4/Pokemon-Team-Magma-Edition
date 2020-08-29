@@ -170,19 +170,6 @@ const struct Item gItems[] =
         .secondaryId = 11,
     },
 
-    [ITEM_HEIST_BALL] =
-    {
-        .name = _("HEIST BALL"),
-        .itemId = ITEM_HEIST_BALL,
-        .price = 200,
-        .description = sHeistBallDesc,
-        .pocket = POCKET_POKE_BALLS,
-        .type = 11,
-        .battleUsage = 2,
-        .battleUseFunc = ItemUseInBattle_PokeBall,
-        .secondaryId = 12,
-    },
-
 // Medicine
 
     [ITEM_POTION] =
