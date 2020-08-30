@@ -4420,6 +4420,36 @@
       "secondary_tileset": "gTileset_Lavaridge",
       "border_filepath": "data/layouts/NewMap1/border.bin",
       "blockdata_filepath": "data/layouts/NewMap1/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE111_MAGMA_HIDEOUT_F1",
+      "name": "Route111_MagmaHideoutF1_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_MagmaRoute111Hideout",
+      "border_filepath": "data/layouts/Route111_MagmaHideoutF1/border.bin",
+      "blockdata_filepath": "data/layouts/Route111_MagmaHideoutF1/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE111_MAGMA_HIDEOUT_B1F",
+      "name": "Route111_MagmaHideoutB1F_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_MagmaRoute111Hideout",
+      "border_filepath": "data/layouts/Route111_MagmaHideoutB1F/border.bin",
+      "blockdata_filepath": "data/layouts/Route111_MagmaHideoutB1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE111_MAGMA_HIDEOUT_B2F",
+      "name": "Route111_MagmaHideoutB2F_Layout",
+      "width": 20,
+      "height": 16,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_MagmaRoute111Hideout",
+      "border_filepath": "data/layouts/Route111_MagmaHideoutB2F/border.bin",
+      "blockdata_filepath": "data/layouts/Route111_MagmaHideoutB2F/map.bin"
     }
   ]
 }

@@ -557,3 +557,11 @@ gMetatiles_UnionRoom:: @ 83DF392
 	.align 1
 gMetatileAttributes_UnionRoom:: @ 83DF6A2
 	.incbin "data/tilesets/secondary/union_room/metatile_attributes.bin"
+
+	.align 1
+gMetatiles_MagmaRoute111Hideout::
+	.incbin "data/tilesets/secondary/magmaroute111hideout/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_MagmaRoute111Hideout::
+	.incbin "data/tilesets/secondary/magmaroute111hideout/metatile_attributes.bin"

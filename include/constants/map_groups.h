@@ -269,6 +269,9 @@
 // Map Group 18
 #define MAP_ROUTE111_WINSTRATE_FAMILYS_HOUSE (0 | (18 << 8))
 #define MAP_ROUTE111_OLD_LADYS_REST_STOP     (1 | (18 << 8))
+#define MAP_ROUTE111_MAGMA_HIDEOUT_F1        (2 | (18 << 8))
+#define MAP_ROUTE111_MAGMA_HIDEOUT_B1F       (3 | (18 << 8))
+#define MAP_ROUTE111_MAGMA_HIDEOUT_B2F       (4 | (18 << 8))
 
 // Map Group 19
 #define MAP_ROUTE112_CABLE_CAR_STATION   (0 | (19 << 8))

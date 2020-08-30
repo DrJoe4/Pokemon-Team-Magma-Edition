@@ -1729,3 +1729,23 @@ gTilesetPalettes_UnionRoom:: @ 8395678
 	.align 2
 gTilesetTiles_UnionRoom:: @ 8395878
 	.incbin "data/tilesets/secondary/union_room/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_MagmaRoute111Hideout::
+	.incbin "data/tilesets/secondary/magmaroute111hideout/palettes/00.gbapal"
+	.incbin "data/tilesets/secondary/magmaroute111hideout/palettes/01.gbapal"
+	.incbin "data/tilesets/secondary/magmaroute111hideout/palettes/02.gbapal"
+	.incbin "data/tilesets/secondary/magmaroute111hideout/palettes/03.gbapal"
+	.incbin "data/tilesets/secondary/magmaroute111hideout/palettes/04.gbapal"
+	.incbin "data/tilesets/secondary/magmaroute111hideout/palettes/05.gbapal"
+	.incbin "data/tilesets/secondary/magmaroute111hideout/palettes/06.gbapal"
+	.incbin "data/tilesets/secondary/magmaroute111hideout/palettes/07.gbapal"
+	.incbin "data/tilesets/secondary/magmaroute111hideout/palettes/08.gbapal"
+	.incbin "data/tilesets/secondary/magmaroute111hideout/palettes/09.gbapal"
+	.incbin "data/tilesets/secondary/magmaroute111hideout/palettes/10.gbapal"
+	.incbin "data/tilesets/secondary/magmaroute111hideout/palettes/11.gbapal"
+	.incbin "data/tilesets/secondary/magmaroute111hideout/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_MagmaRoute111Hideout::
+	.incbin "data/tilesets/secondary/magmaroute111hideout/tiles.4bpp.lz"

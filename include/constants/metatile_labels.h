@@ -206,7 +206,7 @@
 #define METATILE_General_Door_Gym              0x1CD
 #define METATILE_General_Door_PokeCenter       0x061
 #define METATILE_General_Door_PokeMart         0x041
-#define METATILE_General_Door_PokePolice	   0x021
+#define METATILE_General_Door_PokePolice       0x021
 #define METATILE_General_Grass                 0x001
 #define METATILE_General_Grass_TreeLeft        0x1CE
 #define METATILE_General_Grass_TreeRight       0x1CF
@@ -323,7 +323,7 @@
 #define METATILE_Mauville_Door                0x2AC
 #define METATILE_Mauville_Door_BattleTent     0x3D4
 #define METATILE_Mauville_Door_CyclingRoad    0x289
-#define METATILE_Mauville_Door_HoennTV		  0x3C0
+#define METATILE_Mauville_Door_HoennTV        0x3C0
 #define METATILE_Mauville_Door_Verdanturf     0x3A1
 
 // gTileset_MeteorFalls

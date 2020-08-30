@@ -1061,3 +1061,9 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/text/birch_speech.inc"
 
 	.include "data/maps/NewMap1/scripts.inc"
+
+	.include "data/maps/Route111_MagmaHideoutF1/scripts.inc"
+
+	.include "data/maps/Route111_MagmaHideoutB1F/scripts.inc"
+
+	.include "data/maps/Route111_MagmaHideoutB2F/scripts.inc"
