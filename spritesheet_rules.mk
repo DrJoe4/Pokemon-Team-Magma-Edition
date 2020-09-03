@@ -662,3 +662,7 @@ $(FLDEFFGFXDIR)/unknown_35.4bpp: %.4bpp: %.png
 
 $(FLDEFFGFXDIR)/unused_grass.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 2
+
+
+$(OBJEVENTGFXDIR)/people/team_magma/tabitha.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
