@@ -48,7 +48,7 @@
       "x": 11,
       "y": 5,
       "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_EAST",
       "script": "Common_EventScript_ShowPlaceholderSign"
     },
     {
@@ -56,7 +56,7 @@
       "x": 11,
       "y": 6,
       "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_EAST",
       "script": "Common_EventScript_ShowPlaceholderSign"
     },
     {
@@ -64,7 +64,7 @@
       "x": 7,
       "y": 1,
       "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
       "script": "Common_EventScript_ShowPlaceholderSign"
     },
     {
@@ -72,7 +72,7 @@
       "x": 3,
       "y": 1,
       "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
       "script": "Common_EventScript_ShowPlaceholderSign"
     },
     {
@@ -80,7 +80,7 @@
       "x": 2,
       "y": 1,
       "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
       "script": "Common_EventScript_ShowPlaceholderSign"
     },
     {
@@ -88,7 +88,7 @@
       "x": 0,
       "y": 8,
       "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_WEST",
       "script": "Common_EventScript_ShowPlaceholderSign"
     },
     {
@@ -96,7 +96,7 @@
       "x": 0,
       "y": 7,
       "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_WEST",
       "script": "Common_EventScript_ShowPlaceholderSign"
     },
     {
@@ -104,7 +104,7 @@
       "x": 0,
       "y": 9,
       "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_WEST",
       "script": "Common_EventScript_ShowPlaceholderSign"
     },
     {
@@ -112,7 +112,7 @@
       "x": 0,
       "y": 10,
       "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_WEST",
       "script": "Common_EventScript_ShowPlaceholderSign"
     }
   ]

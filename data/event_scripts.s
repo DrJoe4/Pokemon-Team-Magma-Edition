@@ -667,6 +667,13 @@ Common_EventScript_ShowPokemonOutreachSign::
 	msgbox gText_PokemonOutreachSign, MSGBOX_SIGN
 	end
 
+Common_EventScript_ShowPlaceholderSign::
+	msgbox gText_PlaceholderSign, MSGBOX_SIGN
+	end
+
+gText_PlaceholderSign::
+	.string "This is a placeholder\n$"
+
 Common_ShowEasyChatScreen:: @ 8271E7C
 	fadescreen FADE_TO_BLACK
 	special ShowEasyChatScreen
@@ -1107,3 +1114,31 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/MossdeepCity_PoliceOutreach/scripts.inc"
 
 	.include "data/maps/SootopolisCity_PoliceOutreach/scripts.inc"
+
+	.include "data/maps/OldaleTown_PoliceCells/scripts.inc"
+
+	.include "data/maps/DewfordTown_PoliceCells/scripts.inc"
+
+	.include "data/maps/LavaridgeTown_PoliceCells/scripts.inc"
+
+	.include "data/maps/FallarborTown_PoliceCells/scripts.inc"
+
+	.include "data/maps/VerdanturfTown_PoliceCells/scripts.inc"
+
+	.include "data/maps/PacifidlogTown_PoliceCells/scripts.inc"
+
+	.include "data/maps/PetalburgCity_PoliceCells/scripts.inc"
+
+	.include "data/maps/SlateportCity_PoliceCells/scripts.inc"
+
+	.include "data/maps/MauvilleCity_PoliceCells/scripts.inc"
+
+	.include "data/maps/RustboroCity_PoliceCells/scripts.inc"
+
+	.include "data/maps/FortreeCity_PoliceCells/scripts.inc"
+
+	.include "data/maps/LilycoveCity_PoliceCells/scripts.inc"
+
+	.include "data/maps/MossdeepCity_PoliceCells/scripts.inc"
+
+	.include "data/maps/SootopolisCity_PoliceCells/scripts.inc"

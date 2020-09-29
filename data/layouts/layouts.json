@@ -4610,6 +4610,146 @@
       "secondary_tileset": "gTileset_PoliceOutreach",
       "border_filepath": "data/layouts/SootopolisCity_PoliceOutreach/border.bin",
       "blockdata_filepath": "data/layouts/SootopolisCity_PoliceOutreach/map.bin"
+    },
+    {
+      "id": "LAYOUT_OLDALE_TOWN_POLICE_CELLS",
+      "name": "OldaleTown_PoliceCells_Layout",
+      "width": 16,
+      "height": 10,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PoliceOutreach",
+      "border_filepath": "data/layouts/OldaleTown_PoliceCells/border.bin",
+      "blockdata_filepath": "data/layouts/OldaleTown_PoliceCells/map.bin"
+    },
+    {
+      "id": "LAYOUT_DEWFORD_TOWN_POLICE_CELLS",
+      "name": "DewfordTown_PoliceCells_Layout",
+      "width": 16,
+      "height": 10,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PoliceOutreach",
+      "border_filepath": "data/layouts/DewfordTown_PoliceCells/border.bin",
+      "blockdata_filepath": "data/layouts/DewfordTown_PoliceCells/map.bin"
+    },
+    {
+      "id": "LAYOUT_LAVARIDGE_TOWN_POLICE_CELLS",
+      "name": "LavaridgeTown_PoliceCells_Layout",
+      "width": 16,
+      "height": 10,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PoliceOutreach",
+      "border_filepath": "data/layouts/LavaridgeTown_PoliceCells/border.bin",
+      "blockdata_filepath": "data/layouts/LavaridgeTown_PoliceCells/map.bin"
+    },
+    {
+      "id": "LAYOUT_FALLARBOR_TOWN_POLICE_CELLS",
+      "name": "FallarborTown_PoliceCells_Layout",
+      "width": 16,
+      "height": 10,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PoliceOutreach",
+      "border_filepath": "data/layouts/FallarborTown_PoliceCells/border.bin",
+      "blockdata_filepath": "data/layouts/FallarborTown_PoliceCells/map.bin"
+    },
+    {
+      "id": "LAYOUT_VERDANTURF_TOWN_POLICE_CELLS",
+      "name": "VerdanturfTown_PoliceCells_Layout",
+      "width": 16,
+      "height": 10,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PoliceOutreach",
+      "border_filepath": "data/layouts/VerdanturfTown_PoliceCells/border.bin",
+      "blockdata_filepath": "data/layouts/VerdanturfTown_PoliceCells/map.bin"
+    },
+    {
+      "id": "LAYOUT_PACIFIDLOG_TOWN_POLICE_CELLS",
+      "name": "PacifidlogTown_PoliceCells_Layout",
+      "width": 16,
+      "height": 10,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PoliceOutreach",
+      "border_filepath": "data/layouts/PacifidlogTown_PoliceCells/border.bin",
+      "blockdata_filepath": "data/layouts/PacifidlogTown_PoliceCells/map.bin"
+    },
+    {
+      "id": "LAYOUT_PETALBURG_CITY_POLICE_CELLS",
+      "name": "PetalburgCity_PoliceCells_Layout",
+      "width": 16,
+      "height": 10,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PoliceOutreach",
+      "border_filepath": "data/layouts/PetalburgCity_PoliceCells/border.bin",
+      "blockdata_filepath": "data/layouts/PetalburgCity_PoliceCells/map.bin"
+    },
+    {
+      "id": "LAYOUT_SLATEPORT_CITY_POLICE_CELLS",
+      "name": "SlateportCity_PoliceCells_Layout",
+      "width": 16,
+      "height": 10,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PoliceOutreach",
+      "border_filepath": "data/layouts/SlateportCity_PoliceCells/border.bin",
+      "blockdata_filepath": "data/layouts/SlateportCity_PoliceCells/map.bin"
+    },
+    {
+      "id": "LAYOUT_MAUVILLE_CITY_POLICE_CELLS",
+      "name": "MauvilleCity_PoliceCells_Layout",
+      "width": 16,
+      "height": 10,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PoliceOutreach",
+      "border_filepath": "data/layouts/MauvilleCity_PoliceCells/border.bin",
+      "blockdata_filepath": "data/layouts/MauvilleCity_PoliceCells/map.bin"
+    },
+    {
+      "id": "LAYOUT_RUSTBORO_CITY_POLICE_CELLS",
+      "name": "RustboroCity_PoliceCells_Layout",
+      "width": 16,
+      "height": 10,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PoliceOutreach",
+      "border_filepath": "data/layouts/RustboroCity_PoliceCells/border.bin",
+      "blockdata_filepath": "data/layouts/RustboroCity_PoliceCells/map.bin"
+    },
+    {
+      "id": "LAYOUT_FORTREE_CITY_POLICE_CELLS",
+      "name": "FortreeCity_PoliceCells_Layout",
+      "width": 16,
+      "height": 10,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PoliceOutreach",
+      "border_filepath": "data/layouts/FortreeCity_PoliceCells/border.bin",
+      "blockdata_filepath": "data/layouts/FortreeCity_PoliceCells/map.bin"
+    },
+    {
+      "id": "LAYOUT_LILYCOVE_CITY_POLICE_CELLS",
+      "name": "LilycoveCity_PoliceCells_Layout",
+      "width": 16,
+      "height": 10,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PoliceOutreach",
+      "border_filepath": "data/layouts/LilycoveCity_PoliceCells/border.bin",
+      "blockdata_filepath": "data/layouts/LilycoveCity_PoliceCells/map.bin"
+    },
+    {
+      "id": "LAYOUT_MOSSDEEP_CITY_POLICE_CELLS",
+      "name": "MossdeepCity_PoliceCells_Layout",
+      "width": 16,
+      "height": 10,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PoliceOutreach",
+      "border_filepath": "data/layouts/MossdeepCity_PoliceCells/border.bin",
+      "blockdata_filepath": "data/layouts/MossdeepCity_PoliceCells/map.bin"
+    },
+    {
+      "id": "LAYOUT_SOOTOPOLIS_CITY_POLICE_CELLS",
+      "name": "SootopolisCity_PoliceCells_Layout",
+      "width": 16,
+      "height": 10,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PoliceOutreach",
+      "border_filepath": "data/layouts/SootopolisCity_PoliceCells/border.bin",
+      "blockdata_filepath": "data/layouts/SootopolisCity_PoliceCells/map.bin"
     }
   ]
 }

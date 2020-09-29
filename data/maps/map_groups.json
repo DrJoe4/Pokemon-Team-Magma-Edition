@@ -111,7 +111,8 @@
     "OldaleTown_PokemonCenter_1F",
     "OldaleTown_PokemonCenter_2F",
     "OldaleTown_Mart",
-    "OldaleTown_PoliceOutreach"
+    "OldaleTown_PoliceOutreach",
+    "OldaleTown_PoliceCells"
   ],
   "gMapGroup3": [
     "DewfordTown_House1",
@@ -120,7 +121,8 @@
     "DewfordTown_Gym",
     "DewfordTown_Hall",
     "DewfordTown_House2",
-    "DewfordTown_PoliceOutreach"
+    "DewfordTown_PoliceOutreach",
+    "DewfordTown_PoliceCells"
   ],
   "gMapGroup4": [
     "LavaridgeTown_HerbShop",
@@ -130,7 +132,8 @@
     "LavaridgeTown_Mart",
     "LavaridgeTown_PokemonCenter_1F",
     "LavaridgeTown_PokemonCenter_2F",
-    "LavaridgeTown_PoliceOutreach"
+    "LavaridgeTown_PoliceOutreach",
+    "LavaridgeTown_PoliceCells"
   ],
   "gMapGroup5": [
     "FallarborTown_Mart",
@@ -141,7 +144,8 @@
     "FallarborTown_PokemonCenter_2F",
     "FallarborTown_CozmosHouse",
     "FallarborTown_MoveRelearnersHouse",
-    "FallarborTown_PoliceOutreach"
+    "FallarborTown_PoliceOutreach",
+    "FallarborTown_PoliceCells"
   ],
   "gMapGroup6": [
     "VerdanturfTown_BattleTentLobby",
@@ -153,7 +157,8 @@
     "VerdanturfTown_WandasHouse",
     "VerdanturfTown_FriendshipRatersHouse",
     "VerdanturfTown_House",
-    "VerdanturfTown_PoliceOutreach"
+    "VerdanturfTown_PoliceOutreach",
+    "VerdanturfTown_PoliceCells"
   ],
   "gMapGroup7": [
     "PacifidlogTown_PokemonCenter_1F",
@@ -163,7 +168,8 @@
     "PacifidlogTown_House3",
     "PacifidlogTown_House4",
     "PacifidlogTown_House5",
-    "PacifidlogTown_PoliceOutreach"
+    "PacifidlogTown_PoliceOutreach",
+    "PacifidlogTown_PoliceCells"
   ],
   "gMapGroup8": [
     "PetalburgCity_WallysHouse",
@@ -173,7 +179,8 @@
     "PetalburgCity_PokemonCenter_1F",
     "PetalburgCity_PokemonCenter_2F",
     "PetalburgCity_Mart",
-    "PetalburgCity_PoliceOutreach"
+    "PetalburgCity_PoliceOutreach",
+    "PetalburgCity_PoliceCells"
   ],
   "gMapGroup9": [
     "SlateportCity_SternsShipyard_1F",
@@ -190,7 +197,8 @@
     "SlateportCity_PokemonCenter_1F",
     "SlateportCity_PokemonCenter_2F",
     "SlateportCity_Mart",
-    "SlateportCity_PoliceOutreach"
+    "SlateportCity_PoliceOutreach",
+    "SlateportCity_PoliceCells"
   ],
   "gMapGroup10": [
     "MauvilleCity_Gym",
@@ -201,7 +209,8 @@
     "MauvilleCity_PokemonCenter_1F",
     "MauvilleCity_PokemonCenter_2F",
     "MauvilleCity_Mart",
-    "MauvilleCity_PoliceOutreach"
+    "MauvilleCity_PoliceOutreach",
+    "MauvilleCity_PoliceCells"
   ],
   "gMapGroup11": [
     "RustboroCity_DevonCorp_1F",
@@ -221,7 +230,8 @@
     "RustboroCity_Flat2_2F",
     "RustboroCity_Flat2_3F",
     "RustboroCity_House3",
-    "RustboroCity_PoliceOutreach"
+    "RustboroCity_PoliceOutreach",
+    "RustboroCity_PoliceCells"
   ],
   "gMapGroup12": [
     "FortreeCity_House1",
@@ -234,7 +244,8 @@
     "FortreeCity_House4",
     "FortreeCity_House5",
     "FortreeCity_DecorationShop",
-    "FortreeCity_PoliceOutreach"
+    "FortreeCity_PoliceOutreach",
+    "FortreeCity_PoliceCells"
   ],
   "gMapGroup13": [
     "LilycoveCity_CoveLilyMotel_1F",
@@ -260,7 +271,8 @@
     "LilycoveCity_DepartmentStore_5F",
     "LilycoveCity_DepartmentStoreRooftop",
     "LilycoveCity_DepartmentStoreElevator",
-    "LilycoveCity_PoliceOutreach"
+    "LilycoveCity_PoliceOutreach",
+    "LilycoveCity_PoliceCells"
   ],
   "gMapGroup14": [
     "MossdeepCity_Gym",
@@ -276,7 +288,8 @@
     "MossdeepCity_SpaceCenter_2F",
     "MossdeepCity_GameCorner_1F",
     "MossdeepCity_GameCorner_B1F",
-    "MossdeepCity_PoliceOutreach"
+    "MossdeepCity_PoliceOutreach",
+    "MossdeepCity_PoliceCells"
   ],
   "gMapGroup15": [
     "SootopolisCity_Gym_1F",
@@ -294,7 +307,8 @@
     "SootopolisCity_LotadAndSeedotHouse",
     "SootopolisCity_MysteryEventsHouse_1F",
     "SootopolisCity_MysteryEventsHouse_B1F",
-    "SootopolisCity_PoliceOutreach"
+    "SootopolisCity_PoliceOutreach",
+    "SootopolisCity_PoliceCells"
   ],
   "gMapGroup16": [
     "EverGrandeCity_SidneysRoom",
