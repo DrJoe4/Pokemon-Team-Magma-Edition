@@ -4470,6 +4470,146 @@
       "secondary_tileset": "gTileset_PoliceOutreach",
       "border_filepath": "data/layouts/LittlerootTown_PoliceCells/border.bin",
       "blockdata_filepath": "data/layouts/LittlerootTown_PoliceCells/map.bin"
+    },
+    {
+      "id": "LAYOUT_OLDALE_TOWN_POLICE_OUTREACH",
+      "name": "OldaleTown_PoliceOutreach_Layout",
+      "width": 12,
+      "height": 12,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PoliceOutreach",
+      "border_filepath": "data/layouts/OldaleTown_PoliceOutreach/border.bin",
+      "blockdata_filepath": "data/layouts/OldaleTown_PoliceOutreach/map.bin"
+    },
+    {
+      "id": "LAYOUT_DEWFORD_TOWN_POLICE_OUTREACH",
+      "name": "DewfordTown_PoliceOutreach_Layout",
+      "width": 12,
+      "height": 12,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PoliceOutreach",
+      "border_filepath": "data/layouts/DewfordTown_PoliceOutreach/border.bin",
+      "blockdata_filepath": "data/layouts/DewfordTown_PoliceOutreach/map.bin"
+    },
+    {
+      "id": "LAYOUT_LAVARIDGE_TOWN_POLICE_OUTREACH",
+      "name": "LavaridgeTown_PoliceOutreach_Layout",
+      "width": 12,
+      "height": 12,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PoliceOutreach",
+      "border_filepath": "data/layouts/LavaridgeTown_PoliceOutreach/border.bin",
+      "blockdata_filepath": "data/layouts/LavaridgeTown_PoliceOutreach/map.bin"
+    },
+    {
+      "id": "LAYOUT_FALLARBOR_TOWN_POLICE_OUTREACH",
+      "name": "FallarborTown_PoliceOutreach_Layout",
+      "width": 12,
+      "height": 12,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PoliceOutreach",
+      "border_filepath": "data/layouts/FallarborTown_PoliceOutreach/border.bin",
+      "blockdata_filepath": "data/layouts/FallarborTown_PoliceOutreach/map.bin"
+    },
+    {
+      "id": "LAYOUT_VERDANTURF_TOWN_POLICE_OUTREACH",
+      "name": "VerdanturfTown_PoliceOutreach_Layout",
+      "width": 12,
+      "height": 12,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PoliceOutreach",
+      "border_filepath": "data/layouts/VerdanturfTown_PoliceOutreach/border.bin",
+      "blockdata_filepath": "data/layouts/VerdanturfTown_PoliceOutreach/map.bin"
+    },
+    {
+      "id": "LAYOUT_PACIFIDLOG_TOWN_POLICE_OUTREACH",
+      "name": "PacifidlogTown_PoliceOutreach_Layout",
+      "width": 12,
+      "height": 12,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PoliceOutreach",
+      "border_filepath": "data/layouts/PacifidlogTown_PoliceOutreach/border.bin",
+      "blockdata_filepath": "data/layouts/PacifidlogTown_PoliceOutreach/map.bin"
+    },
+    {
+      "id": "LAYOUT_PETALBURG_CITY_POLICE_OUTREACH",
+      "name": "PetalburgCity_PoliceOutreach_Layout",
+      "width": 12,
+      "height": 12,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PoliceOutreach",
+      "border_filepath": "data/layouts/PetalburgCity_PoliceOutreach/border.bin",
+      "blockdata_filepath": "data/layouts/PetalburgCity_PoliceOutreach/map.bin"
+    },
+    {
+      "id": "LAYOUT_SLATEPORT_CITY_POLICE_OUTREACH",
+      "name": "SlateportCity_PoliceOutreach_Layout",
+      "width": 12,
+      "height": 12,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PoliceOutreach",
+      "border_filepath": "data/layouts/SlateportCity_PoliceOutreach/border.bin",
+      "blockdata_filepath": "data/layouts/SlateportCity_PoliceOutreach/map.bin"
+    },
+    {
+      "id": "LAYOUT_MAUVILLE_CITY_POLICE_OUTREACH",
+      "name": "MauvilleCity_PoliceOutreach_Layout",
+      "width": 12,
+      "height": 12,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PoliceOutreach",
+      "border_filepath": "data/layouts/MauvilleCity_PoliceOutreach/border.bin",
+      "blockdata_filepath": "data/layouts/MauvilleCity_PoliceOutreach/map.bin"
+    },
+    {
+      "id": "LAYOUT_RUSTBORO_CITY_POLICE_OUTREACH",
+      "name": "RustboroCity_PoliceOutreach_Layout",
+      "width": 12,
+      "height": 12,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PoliceOutreach",
+      "border_filepath": "data/layouts/RustboroCity_PoliceOutreach/border.bin",
+      "blockdata_filepath": "data/layouts/RustboroCity_PoliceOutreach/map.bin"
+    },
+    {
+      "id": "LAYOUT_FORTREE_CITY_POLICE_OUTREACH",
+      "name": "FortreeCity_PoliceOutreach_Layout",
+      "width": 12,
+      "height": 12,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PoliceOutreach",
+      "border_filepath": "data/layouts/FortreeCity_PoliceOutreach/border.bin",
+      "blockdata_filepath": "data/layouts/FortreeCity_PoliceOutreach/map.bin"
+    },
+    {
+      "id": "LAYOUT_LILYCOVE_CITY_POLICE_OUTREACH",
+      "name": "LilycoveCity_PoliceOutreach_Layout",
+      "width": 12,
+      "height": 12,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PoliceOutreach",
+      "border_filepath": "data/layouts/LilycoveCity_PoliceOutreach/border.bin",
+      "blockdata_filepath": "data/layouts/LilycoveCity_PoliceOutreach/map.bin"
+    },
+    {
+      "id": "LAYOUT_MOSSDEEP_CITY_POLICE_OUTREACH",
+      "name": "MossdeepCity_PoliceOutreach_Layout",
+      "width": 12,
+      "height": 12,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PoliceOutreach",
+      "border_filepath": "data/layouts/MossdeepCity_PoliceOutreach/border.bin",
+      "blockdata_filepath": "data/layouts/MossdeepCity_PoliceOutreach/map.bin"
+    },
+    {
+      "id": "LAYOUT_SOOTOPOLIS_CITY_POLICE_OUTREACH",
+      "name": "SootopolisCity_PoliceOutreach_Layout",
+      "width": 12,
+      "height": 12,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PoliceOutreach",
+      "border_filepath": "data/layouts/SootopolisCity_PoliceOutreach/border.bin",
+      "blockdata_filepath": "data/layouts/SootopolisCity_PoliceOutreach/map.bin"
     }
   ]
 }

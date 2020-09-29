@@ -1071,3 +1071,31 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/LittlerootTown_PoliceOutreach/scripts.inc"
 
 	.include "data/maps/LittlerootTown_PoliceCells/scripts.inc"
+
+	.include "data/maps/OldaleTown_PoliceOutreach/scripts.inc"
+
+	.include "data/maps/DewfordTown_PoliceOutreach/scripts.inc"
+
+	.include "data/maps/LavaridgeTown_PoliceOutreach/scripts.inc"
+
+	.include "data/maps/FallarborTown_PoliceOutreach/scripts.inc"
+
+	.include "data/maps/VerdanturfTown_PoliceOutreach/scripts.inc"
+
+	.include "data/maps/PacifidlogTown_PoliceOutreach/scripts.inc"
+
+	.include "data/maps/PetalburgCity_PoliceOutreach/scripts.inc"
+
+	.include "data/maps/SlateportCity_PoliceOutreach/scripts.inc"
+
+	.include "data/maps/MauvilleCity_PoliceOutreach/scripts.inc"
+
+	.include "data/maps/RustboroCity_PoliceOutreach/scripts.inc"
+
+	.include "data/maps/FortreeCity_PoliceOutreach/scripts.inc"
+
+	.include "data/maps/LilycoveCity_PoliceOutreach/scripts.inc"
+
+	.include "data/maps/MossdeepCity_PoliceOutreach/scripts.inc"
+
+	.include "data/maps/SootopolisCity_PoliceOutreach/scripts.inc"
