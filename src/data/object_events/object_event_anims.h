@@ -731,37 +731,37 @@ const union AnimCmd gObjectEventImageAnim_AedGoFastestEast[] =
 
 const union AnimCmd gObjectEventImageAnim_AedRunSouth[] =
 {
-    ANIMCMD_FRAME(12, 5),
-    ANIMCMD_FRAME(9, 3),
-    ANIMCMD_FRAME(13, 5),
-    ANIMCMD_FRAME(9, 3),
+    ANIMCMD_FRAME(15, 5),
+    ANIMCMD_FRAME(12, 3),
+    ANIMCMD_FRAME(16, 5),
+    ANIMCMD_FRAME(12, 3),
     ANIMCMD_JUMP(0),
 };
 
 const union AnimCmd gObjectEventImageAnim_AedRunNorth[] =
 {
-    ANIMCMD_FRAME(14, 5),
-    ANIMCMD_FRAME(10, 3),
-    ANIMCMD_FRAME(15, 5),
-    ANIMCMD_FRAME(10, 3),
+    ANIMCMD_FRAME(17, 5),
+    ANIMCMD_FRAME(13, 3),
+    ANIMCMD_FRAME(18, 5),
+    ANIMCMD_FRAME(13, 3),
     ANIMCMD_JUMP(0),
 };
 
 const union AnimCmd gObjectEventImageAnim_AedRunWest[] =
 {
-    ANIMCMD_FRAME(16, 5),
-    ANIMCMD_FRAME(11, 3),
-    ANIMCMD_FRAME(17, 5),
-    ANIMCMD_FRAME(11, 3),
+    ANIMCMD_FRAME(19, 5),
+    ANIMCMD_FRAME(14, 3),
+    ANIMCMD_FRAME(20, 5),
+    ANIMCMD_FRAME(14, 3),
     ANIMCMD_JUMP(0),
 };
 
 const union AnimCmd gObjectEventImageAnim_AedRunEast[] =
 {
-    ANIMCMD_FRAME(16, 5, .hFlip = TRUE),
-    ANIMCMD_FRAME(11, 3, .hFlip = TRUE),
-    ANIMCMD_FRAME(17, 5, .hFlip = TRUE),
-    ANIMCMD_FRAME(11, 3, .hFlip = TRUE),
+    ANIMCMD_FRAME(22, 5),
+    ANIMCMD_FRAME(21, 3),
+    ANIMCMD_FRAME(23, 5),
+    ANIMCMD_FRAME(21, 3),
     ANIMCMD_JUMP(0),
 };
 
@@ -1252,6 +1252,10 @@ const union AnimCmd* const gObjectEventImageAnimTable_AedStandard[] = {
 	gObjectEventImageAnim_AedGoFastestNorth,
 	gObjectEventImageAnim_AedGoFastestWest,
 	gObjectEventImageAnim_AedGoFastestEast,
+	gObjectEventImageAnim_AedRunSouth,
+	gObjectEventImageAnim_AedRunNorth,
+	gObjectEventImageAnim_AedRunWest,
+	gObjectEventImageAnim_AedRunEast,
 };
 
 const union AnimCmd *const gObjectEventImageAnimTable_HoOh[] = {

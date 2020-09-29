@@ -20,6 +20,9 @@ const struct SpriteFrameImage gObjectEventPicTable_BrendanNormal[] = {
     overworld_frame(gObjectEventPic_BrendanRunning, 2, 4, 6),
     overworld_frame(gObjectEventPic_BrendanRunning, 2, 4, 7),
     overworld_frame(gObjectEventPic_BrendanRunning, 2, 4, 8),
+	overworld_frame(gObjectEventPic_BrendanRunning, 2, 4, 9),
+	overworld_frame(gObjectEventPic_BrendanRunning, 2, 4, 10),
+	overworld_frame(gObjectEventPic_BrendanRunning, 2, 4, 11),
 };
 
 const struct SpriteFrameImage gObjectEventPicTable_BrendanMachBike[] = {
