@@ -60,6 +60,7 @@ static const u16 sDoorNullPalette11[16] = {};
 static const u8 sDoorAnimTiles_Mauville[] = INCBIN_U8("graphics/door_anims/mauville.4bpp");
 static const u16 sDoorNullPalette12[16] = {};
 static const u8 sDoorAnimTiles_HoennTV[] = INCBIN_U8("graphics/door_anims/hoenn_tv.4bpp");
+static const u8 sDoorAnimTiles_PoliceCellDoor[] = INCBIN_U8("graphics/door_anims/police_cell_door.4bpp");
 static const u8 sDoorAnimTiles_Verdanturf[] = INCBIN_U8("graphics/door_anims/verdanturf.4bpp");
 static const u16 sDoorNullPalette13[16] = {};
 static const u8 sDoorAnimTiles_Slateport[] = INCBIN_U8("graphics/door_anims/slateport.4bpp");
@@ -226,6 +227,7 @@ static const u8 sDoorAnimPalettes_TrainerHillLobbyElevator[] = {7, 7, 7, 7, 7, 7
 static const u8 sDoorAnimPalettes_TrainerHillRoofElevator[] = {9, 9, 7, 7, 7, 7, 7, 7};
 static const u8 sDoorAnimPalettes_PokePolice[] = {12, 12, 1, 1, 1, 1, 1, 1};
 static const u8 sDoorAnimPalettes_HoennTV[] = {0, 0, 0, 0, 1, 1, 1, 1};
+static const u8 sDoorAnimPalettes_PoliceCellDoor[] = {9, 9, 9, 9, 9, 9, 9, 9};
 
 static const struct DoorGraphics sDoorAnimGraphicsTable[] =
 {
@@ -278,11 +280,12 @@ static const struct DoorGraphics sDoorAnimGraphicsTable[] =
     {METATILE_BattleFrontierOutsideWest_Door,               DOOR_SOUND_NORMAL,  1, sDoorAnimTiles_BattleFrontier, sDoorAnimPalettes_BattleFrontier},
     {METATILE_BattleFrontierOutsideWest_Door_Sliding,       DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_BattleFrontierSliding, sDoorAnimPalettes_BattleFrontier},
     {METATILE_BattleDome_Door_PreBattleRoom,                DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_BattleDomePreBattleRoom, sDoorAnimPalettes_BattleDomePreBattleRoom},
-    {METATILE_BattleTent_Door,                              DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_BattleTentInterior, sDoorAnimPalettes_BattleTentInterior},
+    //{METATILE_BattleTent_Door,                              DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_BattleTentInterior, sDoorAnimPalettes_BattleTentInterior},
     {METATILE_TrainerHill_Door_Elevator_Lobby,              DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_TrainerHillLobbyElevator, sDoorAnimPalettes_TrainerHillLobbyElevator},
     {METATILE_TrainerHill_Door_Elevator_Roof,               DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_TrainerHillRoofElevator, sDoorAnimPalettes_TrainerHillRoofElevator},
 	{METATILE_General_Door_PokePolice,						DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_PokePolice, sDoorAnimPalettes_PokePolice},
 	{METATILE_Mauville_Door_HoennTV,						DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_HoennTV, sDoorAnimPalettes_HoennTV},
+	{METATILE_PoliceOutreach_Door_CellDoor,					DOOR_SOUND_NORMAL,  1, sDoorAnimTiles_PoliceCellDoor, sDoorAnimPalettes_PoliceCellDoor},
 
 };
 

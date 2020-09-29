@@ -182,8 +182,8 @@
       "dest_warp_id": 0
     },
     {
-      "x": 20,
-      "y": 18,
+      "x": 19,
+      "y": 19,
       "elevation": 0,
       "dest_map": "MAP_FORTREE_CITY_POLICE_OUTREACH",
       "dest_warp_id": 0
@@ -243,16 +243,16 @@
     },
     {
       "type": "sign",
-      "x": 21,
-      "y": 18,
+      "x": 20,
+      "y": 19,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
       "script": "Common_EventScript_ShowPokemonOutreachSign"
     },
     {
       "type": "sign",
-      "x": 22,
-      "y": 18,
+      "x": 21,
+      "y": 19,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
       "script": "Common_EventScript_ShowPokemonOutreachSign"

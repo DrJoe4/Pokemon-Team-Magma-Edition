@@ -70,9 +70,6 @@
 #define METATILE_BattlePike_Curtain_Stage3_Tile5  0x2BB
 #define METATILE_BattlePike_Curtain_Stage3_Tile6  0x2BC
 
-// gTileset_BattleTent
-#define METATILE_BattleTent_Door  0x26B
-
 // gTileset_BikeShop
 #define METATILE_BikeShop_Barrier_Blue_Bottom      0x2CF
 #define METATILE_BikeShop_Barrier_Blue_BottomMid   0x2C7
@@ -201,7 +198,6 @@
 #define METATILE_General_CalmWater             0x170
 #define METATILE_General_CaveEntrance_Bottom   0x0A7
 #define METATILE_General_CaveEntrance_Top      0x09F
-#define METATILE_General_Door                  0x021
 #define METATILE_General_Door_Contest          0x1DB
 #define METATILE_General_Door_Gym              0x1CD
 #define METATILE_General_Door_PokeCenter       0x061
@@ -321,7 +317,6 @@
 #define METATILE_Mauville_DeepSand_BottomMid  0x259
 #define METATILE_Mauville_DeepSand_Center     0x251
 #define METATILE_Mauville_Door                0x2AC
-#define METATILE_Mauville_Door_BattleTent     0x3D4
 #define METATILE_Mauville_Door_CyclingRoad    0x289
 #define METATILE_Mauville_Door_HoennTV        0x3C0
 #define METATILE_Mauville_Door_Verdanturf     0x3A1
@@ -403,6 +398,9 @@
 #define METATILE_PokemonCenter_Floor_Plain_Alt          0x2E4
 #define METATILE_PokemonCenter_Floor_ShadowTop          0x21E
 #define METATILE_PokemonCenter_Floor_ShadowTop_Alt      0x2DC
+
+// gTileset_PoliceOutreach
+#define METATILE_PoliceOutreach_Door_CellDoor  0x212
 
 // gTileset_RS
 #define METATILE_RS_MossdeepGym_RedArrow_Down   0x205
@@ -698,8 +696,7 @@
 #define METATILE_Shop_Laptop2_Normal  0x2A5
 
 // gTileset_Slateport
-#define METATILE_Slateport_Door             0x2DC
-#define METATILE_Slateport_Door_BattleTent  0x393
+#define METATILE_Slateport_Door  0x2DC
 
 // gTileset_SootopolisGym
 #define METATILE_SootopolisGym_Ice_Broken   0x206
