@@ -410,6 +410,13 @@
       "elevation": 0,
       "dest_map": "MAP_LILYCOVE_CITY_LILYCOVE_MUSEUM_1F",
       "dest_warp_id": 1
+    },
+    {
+      "x": 18,
+      "y": 14,
+      "elevation": 0,
+      "dest_map": "MAP_LILYCOVE_CITY_POLICE_OUTREACH",
+      "dest_warp_id": 0
     }
   ],
   "coord_events": [
@@ -519,6 +526,22 @@
       "elevation": 0,
       "item": "ITEM_POKE_BALL",
       "flag": "FLAG_HIDDEN_ITEM_LILYCOVE_CITY_POKE_BALL"
+    },
+    {
+      "type": "sign",
+      "x": 19,
+      "y": 14,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+      "script": "Common_EventScript_ShowPokemonOutreachSign"
+    },
+    {
+      "type": "sign",
+      "x": 20,
+      "y": 14,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+      "script": "Common_EventScript_ShowPokemonOutreachSign"
     }
   ]
 }

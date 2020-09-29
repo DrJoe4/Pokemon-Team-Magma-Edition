@@ -663,6 +663,10 @@ Common_EventScript_ShowPokemonCenterSign:: @ 8271E73
 	msgbox gText_PokemonCenterSign, MSGBOX_SIGN
 	end
 
+Common_EventScript_ShowPokemonOutreachSign::
+	msgbox gText_PokemonOutreachSign, MSGBOX_SIGN
+	end
+
 Common_ShowEasyChatScreen:: @ 8271E7C
 	fadescreen FADE_TO_BLACK
 	special ShowEasyChatScreen
@@ -843,6 +847,10 @@ gText_PokemartSign:: @ 8272B6A
 gText_PokemonCenterSign:: @ 8272B9E
 	.string "“Rejuvenate your tired partners!”\n"
 	.string "POKéMON CENTER$"
+
+gText_PokemonOutreachSign::
+	.string "Police Outreach Center\n$"
+	.string "POLICE OUTREACH$"
 
 gText_MomOrDadMightLikeThisProgram:: @ 8272BCF
 	.string "{STR_VAR_1} might like this program.\n"

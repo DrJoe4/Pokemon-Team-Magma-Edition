@@ -167,8 +167,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SCOTT",
-      "x": 12,
-      "y": 14,
+      "x": 17,
+      "y": 11,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 0,
@@ -202,28 +202,28 @@
       "dest_warp_id": 0
     },
     {
-      "x": 23,
+      "x": 24,
       "y": 14,
       "elevation": 0,
       "dest_map": "MAP_MAUVILLE_CITY_MART",
       "dest_warp_id": 0
     },
     {
-      "x": 32,
+      "x": 33,
       "y": 14,
       "elevation": 0,
       "dest_map": "MAP_MAUVILLE_CITY_HOUSE1",
       "dest_warp_id": 0
     },
     {
-      "x": 8,
+      "x": 9,
       "y": 13,
       "elevation": 0,
       "dest_map": "MAP_MAUVILLE_CITY_GAME_CORNER",
       "dest_warp_id": 0
     },
     {
-      "x": 19,
+      "x": 20,
       "y": 14,
       "elevation": 0,
       "dest_map": "MAP_MAUVILLE_CITY_HOUSE2",
@@ -233,7 +233,7 @@
       "x": 2,
       "y": 14,
       "elevation": 0,
-      "dest_map": "MAP_MAUVILLE_CITY_POKEMON_CENTER_1F",
+      "dest_map": "MAP_MAUVILLE_CITY_POLICE_OUTREACH",
       "dest_warp_id": 0
     },
     {
@@ -266,7 +266,7 @@
     },
     {
       "type": "sign",
-      "x": 24,
+      "x": 25,
       "y": 14,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
@@ -274,7 +274,7 @@
     },
     {
       "type": "sign",
-      "x": 25,
+      "x": 26,
       "y": 14,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
@@ -306,11 +306,27 @@
     },
     {
       "type": "sign",
-      "x": 11,
-      "y": 15,
+      "x": 12,
+      "y": 14,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "MauvilleCity_EventScript_GameCornerSign"
+    },
+    {
+      "type": "sign",
+      "x": 3,
+      "y": 14,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+      "script": "Common_EventScript_ShowPokemonOutreachSign"
+    },
+    {
+      "type": "sign",
+      "x": 4,
+      "y": 14,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+      "script": "Common_EventScript_ShowPokemonOutreachSign"
     }
   ]
 }

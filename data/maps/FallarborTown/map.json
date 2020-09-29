@@ -87,13 +87,6 @@
       "dest_warp_id": 0
     },
     {
-      "x": 8,
-      "y": 7,
-      "elevation": 0,
-      "dest_map": "MAP_FALLARBOR_TOWN_BATTLE_TENT_LOBBY",
-      "dest_warp_id": 0
-    },
-    {
       "x": 14,
       "y": 7,
       "elevation": 0,
@@ -112,6 +105,13 @@
       "y": 6,
       "elevation": 0,
       "dest_map": "MAP_FALLARBOR_TOWN_MOVE_RELEARNERS_HOUSE",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 8,
+      "y": 6,
+      "elevation": 0,
+      "dest_map": "MAP_FALLARBOR_TOWN_POLICE_OUTREACH",
       "dest_warp_id": 0
     }
   ],
@@ -134,14 +134,6 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
       "script": "Common_EventScript_ShowPokemonCenterSign"
-    },
-    {
-      "type": "sign",
-      "x": 6,
-      "y": 8,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "FallarborTown_EventScript_BattleTentSign"
     },
     {
       "type": "sign",
@@ -182,6 +174,22 @@
       "elevation": 3,
       "item": "ITEM_NUGGET",
       "flag": "FLAG_HIDDEN_ITEM_FALLARBOR_TOWN_NUGGET"
+    },
+    {
+      "type": "sign",
+      "x": 10,
+      "y": 6,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+      "script": "Common_EventScript_ShowPokemonOutreachSign"
+    },
+    {
+      "type": "sign",
+      "x": 9,
+      "y": 6,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+      "script": "Common_EventScript_ShowPokemonOutreachSign"
     }
   ]
 }
