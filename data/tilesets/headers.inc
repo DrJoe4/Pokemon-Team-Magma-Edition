@@ -841,3 +841,14 @@ gTileset_MagmaRoute111Hideout::
 	.4byte gMetatiles_MagmaRoute111Hideout
 	.4byte gMetatileAttributes_MagmaRoute111Hideout
 	.4byte NULL
+
+	.align 2
+gTileset_PoliceOutreach::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_PoliceOutreach
+	.4byte gTilesetPalettes_PoliceOutreach
+	.4byte gMetatiles_PoliceOutreach
+	.4byte gMetatileAttributes_PoliceOutreach
+	.4byte NULL

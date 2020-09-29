@@ -565,3 +565,10 @@ gMetatiles_MagmaRoute111Hideout::
 	.align 1
 gMetatileAttributes_MagmaRoute111Hideout::
 	.incbin "data/tilesets/secondary/magmaroute111hideout/metatile_attributes.bin"
+	.align 1
+gMetatiles_PoliceOutreach::
+	.incbin "data/tilesets/secondary/policeoutreach/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_PoliceOutreach::
+	.incbin "data/tilesets/secondary/policeoutreach/metatile_attributes.bin"

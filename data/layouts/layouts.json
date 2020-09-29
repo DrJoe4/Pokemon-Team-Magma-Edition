@@ -4450,6 +4450,26 @@
       "secondary_tileset": "gTileset_MagmaRoute111Hideout",
       "border_filepath": "data/layouts/Route111_MagmaHideoutB2F/border.bin",
       "blockdata_filepath": "data/layouts/Route111_MagmaHideoutB2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_LITTLEROOT_TOWN_POLICE_OUTREACH",
+      "name": "LittlerootTown_PoliceOutreach_Layout",
+      "width": 12,
+      "height": 12,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PoliceOutreach",
+      "border_filepath": "data/layouts/LittlerootTown_PoliceOutreach/border.bin",
+      "blockdata_filepath": "data/layouts/LittlerootTown_PoliceOutreach/map.bin"
+    },
+    {
+      "id": "LAYOUT_LITTLEROOT_TOWN_POLICE_CELLS",
+      "name": "LittlerootTown_PoliceCells_Layout",
+      "width": 16,
+      "height": 10,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PoliceOutreach",
+      "border_filepath": "data/layouts/LittlerootTown_PoliceCells/border.bin",
+      "blockdata_filepath": "data/layouts/LittlerootTown_PoliceCells/map.bin"
     }
   ]
 }

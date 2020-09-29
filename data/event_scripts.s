@@ -1067,3 +1067,7 @@ Common_EventScript_LegendaryFlewAway:: @ 8273776
 	.include "data/maps/Route111_MagmaHideoutB1F/scripts.inc"
 
 	.include "data/maps/Route111_MagmaHideoutB2F/scripts.inc"
+
+	.include "data/maps/LittlerootTown_PoliceOutreach/scripts.inc"
+
+	.include "data/maps/LittlerootTown_PoliceCells/scripts.inc"
