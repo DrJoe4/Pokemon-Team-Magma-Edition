@@ -129,8 +129,8 @@ static void ClearFrontierRecord(void)
 static void WarpToTruck(void)
 {
 
-    //SetWarpDestination(MAP_GROUP(ROUTE111_MAGMA_HIDEOUT_B1F), MAP_NUM(ROUTE111_MAGMA_HIDEOUT_B1F), -1, 9, 7);
-	SetWarpDestination(MAP_GROUP(LITTLEROOT_TOWN), MAP_NUM(LITTLEROOT_TOWN), -1, -1, -1);
+    SetWarpDestination(MAP_GROUP(ROUTE111_MAGMA_HIDEOUT_B1F), MAP_NUM(ROUTE111_MAGMA_HIDEOUT_B1F), -1, 9, 7);
+	//SetWarpDestination(MAP_GROUP(LITTLEROOT_TOWN), MAP_NUM(LITTLEROOT_TOWN), -1, -1, -1);
     WarpIntoMap();
 }
 
