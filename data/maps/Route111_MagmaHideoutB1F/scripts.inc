@@ -26,6 +26,7 @@ Route111_MagmaHideoutB1F_EventScript_TabithaSpeech::
 	removeobject 1
 	setflag FLAG_UNUSED_0x054
 	clearflag FLAG_UNUSED_0x055
+	clearflag FLAG_UNUSED_0x068
 	applymovement 3, Movement_GivePoochGirl
 	waitmovement 0
 	msgbox Route111_MagmaHideoutB1F_Text_ReceivePokemon, MSGBOX_DEFAULT
@@ -37,21 +38,43 @@ Route111_MagmaHideoutB1F_EventScript_TabithaSpeech::
 	end
 
 Route111_MagmaHideoutB1F_EventScript_Trigger1::
+	goto_if_set FLAG_UNUSED_0x054 Route111_MagmaHideoutB1F_EventScript_Nothing
 	lock
-	goto_if_set FLAG_UNUSED_0x055 Route111_MagmaHideoutB1F_EventScript_Nothing
+	applymovement 3, Movement_GruntTurnRight
+	waitmovement 0
 	msgbox Route111_MagmaHideoutB1F_Text_Trigger1, MSGBOX_DEFAULT
 	closemessage
 	applymovement OBJ_EVENT_ID_PLAYER, Movement_Away
+	waitmovement 0
+	applymovement 3, Movement_GruntFaceFront
 	waitmovement 0
 	release
 	end
 
 Route111_MagmaHideoutB1F_EventScript_Trigger2::
+	goto_if_set FLAG_UNUSED_0x055 Route111_MagmaHideoutB1F_EventScript_Nothing
 	lock
-	goto_if_set FLAG_UNUSED_0x054 Route111_MagmaHideoutB1F_EventScript_Nothing
+	applymovement 13, Movement_GruntTurnRight
+	waitmovement 0
 	msgbox Route111_MagmaHideoutB1F_Text_NotAllowed, MSGBOX_DEFAULT
 	closemessage
 	applymovement OBJ_EVENT_ID_PLAYER, Movement_Away
+	waitmovement 0
+	applymovement 13, Movement_GruntFaceFront
+	waitmovement 0
+	release
+	end
+
+Route111_MagmaHideoutB1F_EventScript_Trigger3::
+	goto_if_set FLAG_UNUSED_0x068 Route111_MagmaHideoutB1F_EventScript_Nothing
+	lock
+	applymovement 11, Movement_GruntTurnLeft
+	waitmovement 0
+	msgbox Route111_MagmaHideoutB1F_Text_NotAllowed, MSGBOX_DEFAULT
+	closemessage
+	applymovement OBJ_EVENT_ID_PLAYER, Movement_Away
+	waitmovement 0
+	applymovement 11, Movement_GruntFaceFront
 	waitmovement 0
 	release
 	end
@@ -79,6 +102,8 @@ Route111_MagmaHideoutB1F_EventScript_GivePoochAction::
 	playfanfare MUS_FANFA4
 	msgbox Route111_MagmaHideoutB1F_Text_GivePoochAction, MSGBOX_DEFAULT
 	waitfanfare
+	applymovement 3, Common_Movement_FaceOriginalDirection
+	waitmovement 0
 	setflag FLAG_UNUSED_0x055
 	release
 	end
@@ -87,6 +112,8 @@ Route111_MagmaHideoutB1F_EventScript_AlreadyReceived::
 	lock
 	faceplayer
 	msgbox Route111_MagmaHideoutB1F_Text_AlreadyReceived, MSGBOX_DEFAULT
+	applymovement 3, Common_Movement_FaceOriginalDirection
+	waitmovement 0
 	release
 	end
 
@@ -94,6 +121,8 @@ Route111_MagmaHideoutB1F_EventScript_Poochyena::
 	lock
 	faceplayer
 	msgbox Route111_MagmaHideoutB1F_Text_Poochyena, MSGBOX_DEFAULT
+	applymovement 3, Common_Movement_FaceOriginalDirection
+	waitmovement 0
 	release
 	end
 
@@ -160,6 +189,33 @@ Route111_MagmaHideoutB1F_EventScript_Grunt7::
 	release
 	end
 
+Route111_MagmaHideoutB1F_EventScript_StairGrunt1::
+	lock
+	faceplayer
+	msgbox Route111_MagmaHideoutB1F_Text_StairGrunt1, MSGBOX_DEFAULT
+	applymovement 11, Common_Movement_FaceOriginalDirection
+	waitmovement 0
+	release
+	end
+
+Route111_MagmaHideoutB1F_EventScript_StairGrunt2::
+	lock
+	faceplayer
+	msgbox Route111_MagmaHideoutB1F_Text_StairGrunt2, MSGBOX_DEFAULT
+	applymovement 13, Common_Movement_FaceOriginalDirection
+	waitmovement 0
+	release
+	end
+
+Route111_MagmaHideoutB1F_EventScript_BedGrunt::
+	lock
+	faceplayer
+	msgbox Route111_MagmaHideoutB1F_Text_BedGrunt, MSGBOX_DEFAULT
+	applymovement 12, Common_Movement_FaceOriginalDirection
+	waitmovement 0
+	release
+	end
+
 Route111_MagmaHideoutB1F_Text_TabithaSpeech::
 	.string "Now listen here Grunts!\nI'm only going to say this once.\pI don't give two shits about you.\p"
 	.string "To me, you're just expendable cannon\n"
@@ -186,10 +242,10 @@ Route111_MagmaHideoutB1F_Text_GivePoochGirl:
 	.string "Get in line Grunt.$"
 
 Route111_MagmaHideoutB1F_Text_Trigger1:
-	.string "I can't leave yet.$"
+	.string "Grunt! Get. In. Line.$"
 
 Route111_MagmaHideoutB1F_Text_NotAllowed:
-	.string "I'm not allowed up there.$"
+	.string "You aren't allowed to leave yet, Grunt.$"
 
 Route111_MagmaHideoutB1F_Text_Poochyena:
 	.string "Bork.$"
@@ -217,6 +273,23 @@ Route111_MagmaHideoutB1F_Text_Grunt7:
 	.string "doing missions. I want to prove to Maxie\l"
 	.string "and Tabitha that I have what it takes to\l"
 	.string "stop Team Aqua and Steven.$"
+
+Route111_MagmaHideoutB1F_Text_StairGrunt1:
+	.string "I've been here for months after I\n"
+	.string "screwed up my first mission.\p"
+	.string "I wonder if I'm ever going to get\n"
+	.string "sent to Jagged Pass HQ.$"
+
+Route111_MagmaHideoutB1F_Text_StairGrunt2:
+	.string "I'm happy staying inside this base.\n"
+	.string "Everytime I get sent on a patrol\l"
+	.string "outside I come back with sand in every\l"
+	.string "nook and cranny.$"
+
+Route111_MagmaHideoutB1F_Text_BedGrunt:
+	.string "One of these days we'll be in control\n"
+	.string "of Hoenn and all of these sleepless\l"
+	.string "nights will have been worth it.$"
 
 Movement_Away:
 	walk_down
@@ -257,5 +330,17 @@ Movement_GivePoochGirl:
 	walk_up
 	walk_up
 	walk_up
+	face_down
+	step_end
+
+Movement_GruntTurnLeft:
+	face_left
+	step_end
+
+Movement_GruntTurnRight:
+	face_right
+	step_end
+
+Movement_GruntFaceFront:
 	face_down
 	step_end
