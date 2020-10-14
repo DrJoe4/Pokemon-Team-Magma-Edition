@@ -98,7 +98,7 @@ Route111_MagmaHideoutB1F_EventScript_GivePoochAction::
 	faceplayer
 	goto_if_set FLAG_UNUSED_0x055 Route111_MagmaHideoutB1F_EventScript_AlreadyReceived
 	msgbox Route111_MagmaHideoutB1F_Text_GivePoochyena
-	givemon SPECIES_POOCHYENA, 5, ITEM_NONE
+	givemon SPECIES_POOCHYENA, 10, ITEM_NONE
 	playfanfare MUS_FANFA4
 	msgbox Route111_MagmaHideoutB1F_Text_GivePoochAction, MSGBOX_DEFAULT
 	waitfanfare
