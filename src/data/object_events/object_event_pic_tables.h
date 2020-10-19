@@ -1667,12 +1667,15 @@ const struct SpriteFrameImage gObjectEventPicTable_BrendanWatering[] = {
     overworld_frame(gObjectEventPic_BrendanWatering, 4, 4, 0),
     overworld_frame(gObjectEventPic_BrendanWatering, 4, 4, 2),
     overworld_frame(gObjectEventPic_BrendanWatering, 4, 4, 4),
+	overworld_frame(gObjectEventPic_BrendanWatering, 4, 4, 6),
     overworld_frame(gObjectEventPic_BrendanWatering, 4, 4, 1),
     overworld_frame(gObjectEventPic_BrendanWatering, 4, 4, 1),
     overworld_frame(gObjectEventPic_BrendanWatering, 4, 4, 3),
     overworld_frame(gObjectEventPic_BrendanWatering, 4, 4, 3),
     overworld_frame(gObjectEventPic_BrendanWatering, 4, 4, 5),
     overworld_frame(gObjectEventPic_BrendanWatering, 4, 4, 5),
+	overworld_frame(gObjectEventPic_BrendanWatering, 4, 4, 7),
+	overworld_frame(gObjectEventPic_BrendanWatering, 4, 4, 7),
 };
 
 const struct SpriteFrameImage gObjectEventPicTable_MayWatering[] = {
