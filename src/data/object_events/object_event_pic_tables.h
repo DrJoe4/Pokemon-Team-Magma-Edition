@@ -1390,6 +1390,10 @@ const struct SpriteFrameImage gObjectEventPicTable_BrendanFishing[] = {
     overworld_frame(gObjectEventPic_BrendanFishing, 4, 4, 9),
     overworld_frame(gObjectEventPic_BrendanFishing, 4, 4, 10),
     overworld_frame(gObjectEventPic_BrendanFishing, 4, 4, 11),
+	overworld_frame(gObjectEventPic_BrendanFishing, 4, 4, 12),
+	overworld_frame(gObjectEventPic_BrendanFishing, 4, 4, 13),
+	overworld_frame(gObjectEventPic_BrendanFishing, 4, 4, 14),
+	overworld_frame(gObjectEventPic_BrendanFishing, 4, 4, 15),
 };
 
 const struct SpriteFrameImage gObjectEventPicTable_MayFishing[] = {

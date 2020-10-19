@@ -1047,6 +1047,15 @@ const union AnimCmd gObjectEventImageAnim_TakeOutRodEast[] =
     ANIMCMD_END,
 };
 
+const union AnimCmd gObjectEventImageAnim_AedTakeOutRodEast[] =
+{
+	ANIMCMD_FRAME(12, 4),
+	ANIMCMD_FRAME(13, 4),
+	ANIMCMD_FRAME(14, 4),
+	ANIMCMD_FRAME(15, 4),
+	ANIMCMD_END,
+};
+
 const union AnimCmd gObjectEventImageAnim_PutAwayRodSouth[] =
 {
     ANIMCMD_FRAME(11, 4),
@@ -1083,6 +1092,15 @@ const union AnimCmd gObjectEventImageAnim_PutAwayRodEast[] =
     ANIMCMD_END,
 };
 
+const union AnimCmd gObjectEventImageAnim_AedPutAwayRodEast[] =
+{
+	ANIMCMD_FRAME(15, 4),
+	ANIMCMD_FRAME(14, 4),
+	ANIMCMD_FRAME(13, 4),
+	ANIMCMD_FRAME(12, 4),
+	ANIMCMD_END,
+};
+
 const union AnimCmd gObjectEventImageAnim_HookedPokemonSouth[] =
 {
     ANIMCMD_FRAME(10, 6),
@@ -1117,6 +1135,15 @@ const union AnimCmd gObjectEventImageAnim_HookedPokemonEast[] =
     ANIMCMD_LOOP(1),
     ANIMCMD_FRAME(3, 30, .hFlip = TRUE),
     ANIMCMD_JUMP(0),
+};
+
+const union AnimCmd gObjectEventImageAnim_AedHookedPokemonEast[] =
+{
+	ANIMCMD_FRAME(14, 6),
+	ANIMCMD_FRAME(15, 6),
+	ANIMCMD_LOOP(1),
+	ANIMCMD_FRAME(15, 30),
+	ANIMCMD_JUMP(0),
 };
 
 const union AffineAnimCmd gObjectEventRotScalAnim_8508FD8[] =
@@ -1537,6 +1564,21 @@ const union AnimCmd *const gObjectEventImageAnimTable_Fishing[] = {
     gObjectEventImageAnim_HookedPokemonNorth,
     gObjectEventImageAnim_HookedPokemonWest,
     gObjectEventImageAnim_HookedPokemonEast,
+};
+
+const union AnimCmd* const gObjectEventImageAnimTable_AedFishing[] = {
+	gObjectEventImageAnim_TakeOutRodSouth,
+	gObjectEventImageAnim_TakeOutRodNorth,
+	gObjectEventImageAnim_TakeOutRodWest,
+	gObjectEventImageAnim_AedTakeOutRodEast,
+	gObjectEventImageAnim_PutAwayRodSouth,
+	gObjectEventImageAnim_PutAwayRodNorth,
+	gObjectEventImageAnim_PutAwayRodWest,
+	gObjectEventImageAnim_AedPutAwayRodEast,
+	gObjectEventImageAnim_HookedPokemonSouth,
+	gObjectEventImageAnim_HookedPokemonNorth,
+	gObjectEventImageAnim_HookedPokemonWest,
+	gObjectEventImageAnim_AedHookedPokemonEast,
 };
 
 const union AffineAnimCmd *const gObjectEventRotScalAnimTable_KyogreGroudon[] = {
