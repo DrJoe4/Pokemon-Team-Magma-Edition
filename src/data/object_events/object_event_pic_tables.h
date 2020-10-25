@@ -1005,6 +1005,9 @@ const struct SpriteFrameImage gObjectEventPicTable_MayNormal[] = {
     overworld_frame(gObjectEventPic_MayNormal, 2, 4, 6),
     overworld_frame(gObjectEventPic_MayNormal, 2, 4, 7),
     overworld_frame(gObjectEventPic_MayNormal, 2, 4, 8),
+	overworld_frame(gObjectEventPic_MayNormal, 2, 4, 9),
+	overworld_frame(gObjectEventPic_MayNormal, 2, 4, 10),
+	overworld_frame(gObjectEventPic_MayNormal, 2, 4, 11),
     overworld_frame(gObjectEventPic_MayRunning, 2, 4, 0),
     overworld_frame(gObjectEventPic_MayRunning, 2, 4, 1),
     overworld_frame(gObjectEventPic_MayRunning, 2, 4, 2),
@@ -1014,6 +1017,9 @@ const struct SpriteFrameImage gObjectEventPicTable_MayNormal[] = {
     overworld_frame(gObjectEventPic_MayRunning, 2, 4, 6),
     overworld_frame(gObjectEventPic_MayRunning, 2, 4, 7),
     overworld_frame(gObjectEventPic_MayRunning, 2, 4, 8),
+	overworld_frame(gObjectEventPic_MayRunning, 2, 4, 9),
+	overworld_frame(gObjectEventPic_MayRunning, 2, 4, 10),
+	overworld_frame(gObjectEventPic_MayRunning, 2, 4, 11),
 };
 
 const struct SpriteFrameImage gObjectEventPicTable_MayMachBike[] = {
@@ -2197,3 +2203,16 @@ const struct SpriteFrameImage gObjectEventPicTable_Tabitha[] = {
 	overworld_frame(gObjectEventPic_Tabitha, 2, 4, 7),
 	overworld_frame(gObjectEventPic_Tabitha, 2, 4, 8),
 };
+
+const struct SpriteFrameImage gObjectEventPicTable_Cop[] = {
+	overworld_frame(gObjectEventPic_Cop, 2, 4, 0),
+	overworld_frame(gObjectEventPic_Cop, 2, 4, 1),
+	overworld_frame(gObjectEventPic_Cop, 2, 4, 2),
+	overworld_frame(gObjectEventPic_Cop, 2, 4, 3),
+	overworld_frame(gObjectEventPic_Cop, 2, 4, 4),
+	overworld_frame(gObjectEventPic_Cop, 2, 4, 5),
+	overworld_frame(gObjectEventPic_Cop, 2, 4, 6),
+	overworld_frame(gObjectEventPic_Cop, 2, 4, 7),
+	overworld_frame(gObjectEventPic_Cop, 2, 4, 8),
+};
+

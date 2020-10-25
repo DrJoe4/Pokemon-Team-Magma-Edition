@@ -2,7 +2,7 @@
   "id": "MAP_ROUTE111_MAGMA_HIDEOUT_B1F",
   "name": "Route111_MagmaHideoutB1F",
   "layout": "LAYOUT_ROUTE111_MAGMA_HIDEOUT_B1F",
-  "music": "MUS_TEST1",
+  "music": "MUS_AJITO",
   "region_map_section": "MAPSEC_ROUTE_111",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -181,6 +181,19 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route111_MagmaHideoutB1F_EventScript_StairGrunt2",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_COP",
+      "x": 2,
+      "y": 9,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_WALK_SEQUENCE_UP_RIGHT_LEFT_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
       "flag": "0"
     }
   ],
