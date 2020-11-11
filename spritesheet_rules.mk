@@ -667,6 +667,10 @@ $(FLDEFFGFXDIR)/unused_grass.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/people/team_magma/tabitha.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
+$(OBJEVENTGFXDIR)/people/team_magma/blaise.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+
 
 $(OBJEVENTGFXDIR)/people/cop.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
